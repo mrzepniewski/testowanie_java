@@ -1,4 +1,3 @@
-package zad2doubleCalculator;
 
 
 import static org.junit.Assert.*;
@@ -39,7 +38,7 @@ public class CalculatorTest {
              
               Calculator calc = new Calculator();
               assertEquals(0.25, calc.multi(0.5, 0.5),1e-15);
-             
+              assertNotEquals(0.1, calc.multi(0.1, 0.0),1e-15);
               
       }
 	  
@@ -49,6 +48,12 @@ public class CalculatorTest {
               Calculator calc = new Calculator();
               assertEquals(true, calc.greater(20.1, 10.3));
               assertTrue(calc.greater(5.2, 2.123));
+      }
+	  @Test(expected = java.lang.ArithmeticException.class)
+      public void testDivMethodWithException(){
+             
+              Calculator calc = new Calculator();
+              assertEquals(0.0, calc.div(0.5, 0.0),1e-15);
       }
 	  
 }

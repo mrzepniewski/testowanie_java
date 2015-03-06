@@ -8,63 +8,87 @@ public class LiczbaRzymska
 	}
 	public String toString()
 	{
-		  int input=this.licz;
-		  if (input < 1 || input > 3999)
-		        return null;
-		    String s = "";
-		    while (input >= 1000) {
-		        s += "M";
-		        input -= 1000;        }
-		    while (input >= 900) {
-		        s += "CM";
-		        input -= 900;
+		  String liczbapokonwersji=null;
+		  int liczba=this.licz;
+		  if (liczba < 1 || liczba > 3999){
+			  System.out.println("Liczba z poza zakresu");
+			  return null;
+		  }
+		  else
+		  {
+		    liczbapokonwersji="";
+		    while (liczba >= 1000) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+ "M";
+		        liczba=liczba-1000; 
 		    }
-		    while (input >= 500) {
-		        s += "D";
-		        input -= 500;
+		    while (liczba >= 900) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"CM";
+		        liczba=liczba-900;
 		    }
-		    while (input >= 400) {
-		        s += "CD";
-		        input -= 400;
+		    while (liczba >= 500) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"D";
+		        liczba=liczba-500;
 		    }
-		    while (input >= 100) {
-		        s += "C";
-		        input -= 100;
+		    while (liczba >= 400) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"CD";
+		        liczba=liczba-400;
 		    }
-		    while (input >= 90) {
-		        s += "XC";
-		        input -= 90;
+		    while (liczba >= 100) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"C";
+		        liczba=liczba-100;
 		    }
-		    while (input >= 50) {
-		        s += "L";
-		        input -= 50;
+		    while (liczba >= 90) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"XC";
+		        liczba=liczba-90;
 		    }
-		    while (input >= 40) {
-		        s += "XL";
-		        input -= 40;
+		    while (liczba >= 50) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"L";
+		        liczba=liczba-50;
 		    }
-		    while (input >= 10) {
-		        s += "X";
-		        input -= 10;
+		    while (liczba >= 40) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+ "XL";
+		        liczba=liczba-40;
 		    }
-		    while (input >= 9) {
-		        s += "IX";
-		        input -= 9;
+		    while (liczba >= 10) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"X";
+		        liczba=liczba-10;
 		    }
-		    while (input >= 5) {
-		        s += "V";
-		        input -= 5;
+		    while (liczba >= 9) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"IX";
+		        liczba=liczba-9;
 		    }
-		    while (input >= 4) {
-		        s += "IV";
-		        input -= 4;
+		    while (liczba >= 5) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"V";
+		        liczba=liczba-5;
 		    }
-		    while (input >= 1) {
-		        s += "I";
-		        input -= 1;
+		    while (liczba >= 4) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"IV";
+		        liczba=liczba-4;
+		    }
+		    while (liczba >= 1) 
+		    {
+		        liczbapokonwersji=liczbapokonwersji+"I";
+		        liczba=liczba-1;
 		    }    
-		    return s;
-	
+		    return liczbapokonwersji;
+		  }
+	}
+	public static void main(String [] args)
+	{
+		LiczbaRzymska s = new LiczbaRzymska(434);
+		System.out.println(s.toString());
 	}
 }
 
