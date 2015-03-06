@@ -85,10 +85,6 @@ public class LiczbaRzymska
 		    return liczbapokonwersji;
 		  }
 	}
-	public static void main(String [] args)
-	{
-		LiczbaRzymska s = new LiczbaRzymska(434);
-		System.out.println(s.toString());
-	}
+	
 }
 
