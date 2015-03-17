@@ -1,4 +1,4 @@
-package lab2TestingFunctionsWithSome1sTests;
+package com.gra2.testowanie2;
 
 public class NieudanyPsikusException extends Exception {
 	public NieudanyPsikusException(){};

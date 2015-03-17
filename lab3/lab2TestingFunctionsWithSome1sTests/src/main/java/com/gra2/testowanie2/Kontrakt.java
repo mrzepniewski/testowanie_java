@@ -1,11 +1,11 @@
-    package lab2TestingFunctionsWithSome1sTests;
+    package com.gra2.testowanie2;
      
     import java.util.Random;
      
     public class Kontrakt implements Psikus
     {
      
-            @Override
+           
             public Integer cyfrokrad(Integer liczba)
             {
                    
@@ -41,7 +41,7 @@
                     }
             }
      
-            @Override
+            
             public Integer hultajchochla(Integer liczba) throws NieudanyPsikusException {
                    
                 	if(Integer.toString(liczba).length()==1 || (Integer.toString(liczba).length()==2 && Integer.toString(liczba).charAt(0)=='-'))
@@ -96,7 +96,7 @@
                    
             }
      
-            @Override
+         
             public Integer nieksztaltek(Integer liczba) {
                     Random generator = new Random();
                     int wielkosc=liczba.toString().length();

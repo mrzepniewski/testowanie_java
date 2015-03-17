@@ -1,10 +1,13 @@
-package lab2TestingFunctionsWithSome1sTests;
+package com.gra2.testowanie2;
 import static org.hamcrest.CoreMatchers.either;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
-public class hultajchochlaTest {
+
+import com.gra2.testowanie2.NieudanyPsikusException;
+public class hultajchochlaTests {
 private static Kontrakt gra = new Kontrakt();
 @BeforeClass
 public static void setUp() {

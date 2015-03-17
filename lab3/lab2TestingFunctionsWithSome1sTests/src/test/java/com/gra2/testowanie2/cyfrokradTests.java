@@ -1,10 +1,10 @@
-package lab2TestingFunctionsWithSome1sTests;
+package com.gra2.testowanie2;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-public class cyfrokradTest {
+public class cyfrokradTests {
 private static Kontrakt gra;
 @BeforeClass
 public static void setUp() {

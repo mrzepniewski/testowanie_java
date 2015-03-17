@@ -1,11 +1,11 @@
-package lab2TestingFunctionsWithSome1sTests;
+package com.gra2.testowanie2;
 
 import static org.hamcrest.CoreMatchers.either;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import org.junit.BeforeClass;
 import org.junit.Test;
-public class nieksztaltekTest {
+public class nieksztaltekTests {
 private static Kontrakt gra;
 @BeforeClass
 public static void setUp() {
