@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.036" errors="0" skipped="0" tests="41" name="com.gra.testowanie.lab2.KontraktTestSuiteTest">
+<testsuite failures="0" time="0.06" errors="0" skipped="0" tests="41" name="com.gra.testowanie.lab2.KontraktTestSuiteTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/devel/jdk1.7.0_40/jre/lib/i386"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/opt/devel/workspace/lab2"/>
+    <property name="user.dir" value="/home/student/testowanie_java/lab3/lab2"/>
     <property name="java.runtime.version" value="1.7.0_40-b43"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/opt/devel/jdk1.7.0_40/jre/lib/endorsed"/>
@@ -24,7 +24,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/opt/devel/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7318497050741620525.tmp"/>
+    <property name="classworlds.conf" value="/opt/devel/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2861989291371412812.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/opt/devel/jdk1.7.0_40/jre/lib/i386/client:/opt/devel/jdk1.7.0_40/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,45 +60,45 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest1"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest2"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest3"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest4"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest5"/>
-  <testcase time="0.002" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest6"/>
-  <testcase time="0.01" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest7"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest9"/>
-  <testcase time="0.003" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest10"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest1"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest2"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest3"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest4"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest5"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest6"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="CyfrokradTest7"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest1"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest3"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest4"/>
-  <testcase time="0.002" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest5"/>
-  <testcase time="0.003" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest6"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest7"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest8"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltekTest9"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTestIfCorrect"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="hultajchochlaTest"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTest" name="nieksztaltek6"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTest" name="TestingwithParameters[0]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTest" name="TestingwithParameters[1]"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTest" name="TestingwithParameters[2]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTest" name="TestingwithParameters[3]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTest" name="TestingwithParameters[4]"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTest" name="TestingwithParameters[0]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTest" name="TestingwithParameters[1]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTest" name="TestingwithParameters[2]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTest" name="TestingwithParameters[3]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTest" name="TestingwithParameters[4]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTest" name="TestingwithParameters[0]"/>
-  <testcase time="0.001" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTest" name="TestingwithParameters[1]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTest" name="TestingwithParameters[2]"/>
-  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTest" name="TestingwithParameters[3]"/>
+  <testcase time="0.012" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest1"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest2"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest3"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest4"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest5"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest6"/>
+  <testcase time="0.016" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest7"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest9"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest10"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest1"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest2"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest3"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest4"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest5"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest6"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="CyfrokradTest7"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest1"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest3"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest4"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest5"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest6"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest7"/>
+  <testcase time="0.004" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest8"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltekTest9"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTestIfCorrect"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="hultajchochlaTest"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.InterfejsTestZ" name="nieksztaltek6"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTestZ" name="TestingwithParameters[0]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTestZ" name="TestingwithParameters[1]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTestZ" name="TestingwithParameters[2]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTestZ" name="TestingwithParameters[3]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.nieksztaltekTestWithParamTestZ" name="TestingwithParameters[4]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTestZ" name="TestingwithParameters[0]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTestZ" name="TestingwithParameters[1]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTestZ" name="TestingwithParameters[2]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTestZ" name="TestingwithParameters[3]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.hultajchochlaTestsWithParamTestZ" name="TestingwithParameters[4]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTestZ" name="TestingwithParameters[0]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTestZ" name="TestingwithParameters[1]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTestZ" name="TestingwithParameters[2]"/>
+  <testcase time="0" classname="com.gra.testowanie.lab2.cyfrokradTestsWithParamTestZ" name="TestingwithParameters[3]"/>
 </testsuite>

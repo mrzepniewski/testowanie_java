@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 import static org.junit.Assert.*;
 
 import static org.junit.Assert.*;
-
+import static org.hamcrest.CoreMatchers.*;
 public class LiczbaRzymskaTest {
 	
 	@Test
@@ -75,6 +75,31 @@ public class LiczbaRzymskaTest {
 	@Test
 	public void TestRomanTrue(){
 		LiczbaRzymska roman = new LiczbaRzymska(5315);
+		assertTrue("should  be true", roman.toString()==null);
+	}
+	@Test
+	public void TestRomanMinusValue(){
+		LiczbaRzymska roman = new LiczbaRzymska(-3);
+		assertTrue("should  be true", roman.toString()==null);
+	}
+	@Test
+	public void TestRomanIf0(){
+		LiczbaRzymska roman = new LiczbaRzymska(0);
+		assertNull("should be equal",roman.toString());
+	}
+	@Test
+	public void TestRomanIf1(){
+		LiczbaRzymska roman = new LiczbaRzymska(1);
+		assertThat("should  be true", roman.toString(),is("I"));
+	}
+	@Test
+	public void TestRomanIf3999(){
+		LiczbaRzymska roman = new LiczbaRzymska(3999);
+		assertThat(roman.toString(),is("MMMCMXCIX"));
+	}
+	@Test
+	public void TestRomanIf4000(){
+		LiczbaRzymska roman = new LiczbaRzymska(4000);
 		assertTrue("should  be true", roman.toString()==null);
 	}
 	

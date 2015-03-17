@@ -4,10 +4,10 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-  InterfejsTest.class,
-  nieksztaltekTestWithParamTest.class,
-  hultajchochlaTestsWithParamTest.class,
-  cyfrokradTestsWithParamTest.class
+  InterfejsTestZ.class,
+  nieksztaltekTestWithParamTestZ.class,
+  hultajchochlaTestsWithParamTestZ.class,
+  cyfrokradTestsWithParamTestZ.class
 })
 
 public class KontraktTestSuiteTest {

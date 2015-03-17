@@ -107,7 +107,7 @@
                     pozycja1=generator.nextInt(wielkosc);//losujemy pozycje randomowa
                     Boolean passed=false;//kontroler
                     Boolean czyznajdujesie=false;
-                    for(int i=0;i<wielkosc;i++)//sprawdzamy czy 3,7 lub 6 wogole znajduja sie w argumencie
+                    for(int i=0;i<wielkosc;i++)//sprawdzamy czy 3,7 lub 6 znajduja sie w argumencie
                     {
                             if(licz2[i]=='3' || licz2[i]=='7' || licz2[i]=='6'){
                                     czyznajdujesie=true;
